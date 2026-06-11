@@ -1596,11 +1596,6 @@
 /obj/item/clothing/head/utility/hardhat,
 /turf/open/floor/iron,
 /area/station/maintenance/thruster_room/central)
-"arv" = (
-/obj/structure/flora/bush/stalky,
-/obj/effect/landmark/start/hangover,
-/turf/open/water/overlay,
-/area/station/hallway/primary/central)
 "arA" = (
 /turf/open/floor/iron/smooth_edge{
 	dir = 4
@@ -14852,6 +14847,7 @@
 /obj/effect/turf_decal/stripes{
 	dir = 5
 	},
+/obj/effect/spawner/random/gizmo,
 /turf/open/floor/engine,
 /area/station/science/explab)
 "cXH" = (
@@ -60442,7 +60438,9 @@
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
-/obj/machinery/bouldertech/refinery/smelter,
+/obj/machinery/bouldertech/refinery/smelter{
+	dir = 8
+	},
 /obj/machinery/conveyor{
 	dir = 8;
 	id = "mining"
@@ -103285,7 +103283,9 @@
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
-/obj/machinery/bouldertech/refinery,
+/obj/machinery/bouldertech/refinery{
+	dir = 8
+	},
 /obj/machinery/conveyor{
 	dir = 8;
 	id = "mining"
@@ -151842,7 +151842,7 @@ wWZ
 cYn
 prp
 nBY
-arv
+dIv
 cYn
 tbx
 gJY

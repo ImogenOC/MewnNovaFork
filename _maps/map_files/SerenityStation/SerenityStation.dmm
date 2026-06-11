@@ -23317,7 +23317,9 @@
 	id = "mining";
 	dir = 10
 	},
-/obj/machinery/bouldertech/refinery/smelter,
+/obj/machinery/bouldertech/refinery/smelter{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/station/cargo/miningoffice)
 "gId" = (
@@ -42278,6 +42280,10 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/station/command/heads_quarters/hos)
+"mcY" = (
+/obj/effect/spawner/random/gizmo,
+/turf/open/floor/engine,
+/area/station/science/explab)
 "mdj" = (
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
@@ -50903,7 +50909,9 @@
 	dir = 4;
 	id = "mining"
 	},
-/obj/machinery/bouldertech/refinery,
+/obj/machinery/bouldertech/refinery{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/station/cargo/miningoffice)
 "oKw" = (
@@ -183927,7 +183935,7 @@ uqE
 gtX
 xkB
 rvF
-eNs
+mcY
 oSl
 xLb
 gtX
