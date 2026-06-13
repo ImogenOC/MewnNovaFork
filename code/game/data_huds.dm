@@ -52,6 +52,14 @@
 /datum/atom_hud/data/bot_path/private
 	uses_global_hud_category = FALSE
 
+//NOVA EDIT ADDITION START
+/datum/atom_hud/data/human/preference/conflict
+	hud_icons = list(CONFLICT_HUD)
+
+/datum/atom_hud/data/human/preference/erp
+	hud_icons = list(ERP_HUD)
+//NOVA EDIT ADDITION END
+
 /datum/atom_hud/abductor
 	hud_icons = list(GLAND_HUD)
 

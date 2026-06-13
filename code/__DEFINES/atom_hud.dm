@@ -60,6 +60,12 @@
 
 /// Energy shield charge level
 #define SHIELD_HUD "28"
+
+// OOC Huds
+/// Conflict Opt-In Hud
+#define CONFLICT_HUD "29"
+/// ERP Opt-In Hud
+#define ERP_HUD "30"
 // NOVA EDIT ADDITION END
 
 //by default everything in the hud_list of an atom is an image
